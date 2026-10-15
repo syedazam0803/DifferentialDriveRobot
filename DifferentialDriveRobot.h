@@ -18,6 +18,9 @@ class DifferentialDriveRobot
             double initialTheta,
             double trackWidth
         );
+        double getX();
+        double getY();
+        double getTheta();
 
 };
 
